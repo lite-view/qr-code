@@ -1,0 +1,14 @@
+{
+    "name": "lite-view/qr-code",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "bacon/bacon-qr-code": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiteView\\QrCode\\": "src/"
+        }
+    }
+}
