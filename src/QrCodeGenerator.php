@@ -77,6 +77,7 @@ class QrCodeGenerator
         imagedestroy($QR);
         imagedestroy($logo);
         $this->QR = $qr_string;
+        return $this;
     }
 
     public function getB64($prefix = 'data:image/png;base64,')
